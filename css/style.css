@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* El body el el cuerpo donde irá todo nuestro estructura de etiquteas html, por lo tanto le entregamos valores genericos */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    /* Esta propiedad afina la tipografia del nuestro sitio */
+    -moz-osx-font-smoothing: grayscale;
+    /* Esta propiedad afina la tipografia del nuestro sitio */
+    
+    
+}
+.contenedor
+{
+    width: 90%;
+    margin-left: 3%;
+    display: block;
+}
+
+.menu-principal
+{
+    width: 100%;
+    background-color: cadetblue;
+    
+}
+
+.menu-principal ul{
+    display:flex;
+    justify-content: center;
+}
+.menu-principal li{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Lobster', cursive;
+    color: cornsilk;
+    margin: 1rem;
+    padding: 1rem;
+    list-style: none;
+    letter-spacing: 2px; 
+}
+.presentacion
+{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    
+}
+.presentacion .pre-img
+{
+    width: 30%;
+    justify-content: center;
+}
+
+.presentacion .pre-img .imagen-pre
+{
+    width: 200px;
+    height: 200px;   
+    border-radius: 100%;
+}
+
+.presentacion .pre-info
+{
+    margin-left: 5rem;
+    text-align: left;
+    width: 60%;
+    
+}
+
+.presentacion .pre-info p
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.presentacion .pre-info h1
+{
+    font-size: 3rem;
+}
+
+.presentacion .pre-info h2
+{
+    font-family: 'Lobster', cursive;
+    background-color: burlywood;
+    color: cornsilk;
+    font-size: 3rem;
+    margin-right: 30%;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.formulario{
+    margin-top: 2rem;
+    display: block;
+}
+
+.formulario h1{
+    font-size: 5rem;
+    width: 100%;
+    color: cadetblue;
+}
+.formulario form{
+    display: block;
+    font-size: 5rem;
+    width: 100%;
+    
+}
+.formulario .form-text{
+    color: black;
+    font-size: 2rem;
+    border-radius: .5rem;
+    width: 50%;
+    
+    
+}
+.formulario .form-button{
+    background-color: cadetblue;
+    color: cornsilk;
+    font-size: 2rem;
+    border-radius: .5rem;
+    width: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.pie-page
+{
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    background-color: cadetblue;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: azure;
+    font-family: 'Lobster', cursive;
+}
